@@ -36,13 +36,13 @@
                 </div>
                 <div>
                     <lable for="email">Email</lable>
-                    <input type="email" id="email" name="email" /> <!--contact info with text boxes -->
+                    <input type="email" id="email" name="email" /> <!--contact info with boxes for phone and email -->
                 </div>
             </fieldset>
             <fieldset> 
                 <legend>How many Pizzas?</legend>
                 <div>
-                    <lable for="number of pizzs">#of pizzas</lable>
+                    <lable for="number of pizzs">#of pizzas</lable><!-- options for quantity of pizzas-->
                     <select name="qty" id="qty">
                         <option value="">Select</option>
                         <option value="1">1</option>
@@ -55,7 +55,35 @@
                 </div>
             </fieldset>
             <fieldset>
-                <legend></legend>
+                <legend>Toppings and details <small>(for all pizzas)</small></legend>
+                <div>
+                    <lable for="size">Size</lable>     <!--options for size of pizza-->
+                    <select name="size" id="size">
+                        <option value="">Choose size</option>
+                        <option value="Small">Small (6 slices)</option>
+                        <option value="Medium">Medium (8 slices)</option>
+                        <option value="Large">Large (10 slices)</option>
+                        <option value="XL">XL (12 slices)</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="radio" name="shape" id="round" value="round" /><!--radio buttons for shape of pizza-->
+                    <lable for="round">Round</lable>
+                </div>
+                <div>
+                    <input type="radio" name="shape" id="square" value="square" />
+                    <lable for="square">Square</lable>
+                </div>
+                <div>
+                    <lable for="crust">Crust type</lable><!--options for crust type-->
+                    <select name="crust" id="crust">
+                        <option value=""> Select Crust type</option>
+                        <option value="thin">Thin Crust</option>
+                        <option value="Regualr">Regular Crust</option>
+                        <option value="Deep">Deep Dish</option>
+                    </select>
+                </div>
+
             </fieldset>
         </main>
         <footer>
