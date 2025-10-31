@@ -55,7 +55,7 @@
                 </div>
             </fieldset>
             <fieldset>
-                <legend>Toppings and details <small>(for all pizzas)</small></legend>
+                <legend>Pizza details<small>(for all pizzas)</small></legend>
                 <div>
                     <lable for="size">Size</lable>     <!--options for size of pizza-->
                     <select name="size" id="size">
@@ -83,7 +83,40 @@
                         <option value="Deep">Deep Dish</option>
                     </select>
                 </div>
-
+            </fieldset>
+            <fieldset>
+                <legned> Toppings </legned><!-- toppings fieldset with checkboxes-->
+                <div>
+                   <input type="checkbox" name="topping" id="pepperoni" value="pepperoni" />
+                   <lable for="pepperoni">Pepperoni</lable>
+                </div>
+                <div>
+                   <input type="checkbox" name="topping" id="sausage" value="sausage" />
+                   <lable for="sausage">Sausage</lable>
+                </div>
+                <div>
+                   <input type="checkbox" name="topping" id="mushroom" value="mushroom" />
+                   <lable for="mushroom">Mushroom</lable>
+                </div>
+                <div>
+                   <input type="checkbox" name="topping" id="peppers" value="peppers" />
+                   <lable for="peppers">Peppers</lable>
+                </div>
+                <div>
+                   <input type="checkbox" name="topping" id="extracheese" value="extracheese" />
+                   <lable for="extracheese">Extra Cheese</lable>
+                </div>
+                <div>
+                   <input type="checkbox" name="topping" id="pineapple" value="pineapple" />
+                   <lable for="pineapple">Pineapple</lable>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Special instructions</legend><!--text area for instructions-->
+                <div>
+                    <lable for="notes">Notes</lable>
+                    <textarea name="notes" id="notes" rows="4" cols="50"></textarea>
+                </div>
             </fieldset>
         </main>
         <footer>
