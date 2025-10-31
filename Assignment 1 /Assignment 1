@@ -12,12 +12,51 @@
             <section>
                 <h2>Order Custom Pizza!</h2>
                 <p>
-                    
+                    <img src="Assignment 1/images/Pizza.jpg" alt="Freshly baked pizza" height="280" width="280" /> <!-- makes img 280 by 280 px-->
+                    Welcome to <b>PIZZA PLACE</b>! Make your own custom pizza with this easy to use order form.
                 </p>
-
-
-
             </section>
+            <fieldset>
+                <legned>Contact information</legned>
+                <div>
+                    <label for="fname">First name</label>
+                    <input type="text" name="fname" id="fname" />
+                </div>
+                <div>
+                    <lable for="lname">Last name</lable>
+                    <input type="text" name="lname" id="lname" />
+                </div>
+                <div>
+                    <lable for="address">Deliver Address</lable>
+                    <input type="text" id="address" />
+                </div>
+                <div>
+                    <lable for="phone">Phone</lable>
+                    <input type="tel" id="phone" name="phone" />
+                </div>
+                <div>
+                    <lable for="email">Email</lable>
+                    <input type="email" id="email" name="email" /> <!--contact info with text boxes -->
+                </div>
+            </fieldset>
+            <fieldset> 
+                <legend>How many Pizzas?</legend>
+                <div>
+                    <lable for="number of pizzs">#of pizzas</lable>
+                    <select name="qty" id="qty">
+                        <option value="">Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6+</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend></legend>
+            </fieldset>
         </main>
         <footer>
 
