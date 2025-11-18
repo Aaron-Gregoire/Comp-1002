@@ -26,10 +26,40 @@
                 margin: 0;
                 letter-spacing: 12px;
             }
-
-
-
-
+            /* css for different text parts */
+            .tagline{
+                font-size: 28px;
+                margin: 20px 0 50px;
+            }
+            .cast{
+                font-size: 32px;
+                line-height: 1.6;    
+            }
+            .big{
+                font-size: 42px;
+                font-weight: bold;
+            }
+            .credits{
+                font-style: italic;
+                font-size: 28px;
+                margin: 40px 0;
+            }
+            .release{
+                font-size: 40px;
+                color: #ff5500;
+                margin-bottom: 60px;
+            }
+            .billing{
+                font-size: 11px;
+                line-height: 1.3;
+                max-width: 900px;
+                margin: 0 auto;  
+            }
+            /* css for the links at the bottom */
+            a{
+                color: #ff8844;
+                text-decoration: underline;
+            }
     </style>
 </head>
 <body>
@@ -43,20 +73,30 @@
      <main>
         <h1>OPPENHEIMER</h1>
      
+        <div class="cast">
+            <div class="big">CILLIAN MURPHY</div>
+            <div class="big">EMILY BLUNT MATT DAMON ROBERT DOWNEY JR.</div>
+            FLORENCE PUGH JOSH HARTNETT CASEY AFFLECK RAMI MALEK KENNETH BRANAGH<br>
+            BENNY SAFDIE MICHAEL ANGARANO DYLAN ARNOLD DAVID KRUMHOLTZ<br>
+            TOM CONTI DAVID DASTMALCHIAN DANE DeHAAN ALDEN EHRENREICH
+        </div>
     
-    
-    
-    
-    
+        <p class="credits">WRITTEN AND DIRECTED BY<br>CHRISTOPHER NOLAN</p>
+        <p class="release">JULY 21</p>
     </main>
+    <!-- bottom of the poster -->
+    <footer>
+        <div class="billing">
+            UNIVERSAL PICTURES PRESENTS A SYNCOPY PRODUCTIONS IN ASSOCIATION WITH ATLAS ENTERTAINMENT A CHRISTOPHER NOLAN FILM CILLIAN MURPHY "OPPENHEIMER" EMILY BLUNT MATT DAMON ROBERT DOWNEY JR. CASTING BY JOHN PAPSIDERA COSTUME DESIGNER ELLEN MIROJNICK EDITOR JENNIFER LAME PRODUCTION AND DESIGNER RUTH DE JONG DIRECTOR OF PHOTOGRAPHY HOYTE VAN HOYTEMA PRODUCED BY EMMA THOMAS CHARLES ROVEN CHRISTOPHER NOLAN © 2023 UNIVERSAL STUDIOS ALL RIGHTS RESERVED DOLBY ATMOS IMAX WWW.OPPENHEIMERMOVIE.COM
+        </div>
+        <!-- links to the site where u can watch the moive and links to the imdb and rotten tomatoes site to see ratings and reviews-->
+        <p style="margin-top:30px;">
+            <a href="https://www.oppenheimermovie.com" target="_blank">Official Site</a>
 
+            <a href="https://www.imdb.com/title/tt15398776/" target="_blank">IMDb</a>
+            <a href="https://www.rottentomatoes.com/m/oppenheimer_2023" target="_blank">Reviews</a>
+        </p>
+    </footer>
 
 </body>
-
-
-
-
-
-
-
 </html>
