@@ -7,7 +7,7 @@
     <style>
         /* layout for the whole page */
         body { 
-            background: black;
+            background: rgb(70, 23, 23);
             color: white;
             font-family: Arial, sans-serif;
             margin: 0;
@@ -18,6 +18,23 @@
             flex-direction: column; 
             justify-content: space-between;
             text-align: center;
+            }
+            header, footer{
+                width: 100%;
+            }
+            .logo-top{
+                height:70px;
+                width: auto;
+            }
+            .logo-bottom{
+               display: flex;
+               justify-content: center;
+               gap: 60px;
+               margin-bottom: 20px;
+            }
+            .logo-bottom img{
+                height: 38px !important;
+                width: auto;
             }
             /* this is for the title */
             h1{
@@ -66,11 +83,12 @@
 
     <!-- the top of the poster-->
     <header>
-        <p class="tagline">THE WORLD FOREVER CHANGES</p>
+       <img src="images/Universal_Pictures_logo.png" alt="Universal pictures logo" class="logo-top">
     </header>
 
     <!-- the middle of the poster -->
      <main>
+        <p class="tagline">THE WORLD FOREVER CHANGES</p>
         <h1>OPPENHEIMER</h1>
      
         <div class="cast">
@@ -86,13 +104,16 @@
     </main>
     <!-- bottom of the poster -->
     <footer>
+        <div class="logo-bottom">
+            <img src="images/Dolby_Atmos.png" alt="Dolby Atmos logo">
+            <img src="images/IMAX-logo.png" alt="IMAX logo">
+        </div>
         <div class="billing">
             UNIVERSAL PICTURES PRESENTS A SYNCOPY PRODUCTIONS IN ASSOCIATION WITH ATLAS ENTERTAINMENT A CHRISTOPHER NOLAN FILM CILLIAN MURPHY "OPPENHEIMER" EMILY BLUNT MATT DAMON ROBERT DOWNEY JR. CASTING BY JOHN PAPSIDERA COSTUME DESIGNER ELLEN MIROJNICK EDITOR JENNIFER LAME PRODUCTION AND DESIGNER RUTH DE JONG DIRECTOR OF PHOTOGRAPHY HOYTE VAN HOYTEMA PRODUCED BY EMMA THOMAS CHARLES ROVEN CHRISTOPHER NOLAN © 2023 UNIVERSAL STUDIOS ALL RIGHTS RESERVED DOLBY ATMOS IMAX WWW.OPPENHEIMERMOVIE.COM
         </div>
         <!-- links to the site where u can watch the moive and links to the imdb and rotten tomatoes site to see ratings and reviews-->
         <p style="margin-top:30px;">
             <a href="https://www.oppenheimermovie.com" target="_blank">Official Site</a>
-
             <a href="https://www.imdb.com/title/tt15398776/" target="_blank">IMDb</a>
             <a href="https://www.rottentomatoes.com/m/oppenheimer_2023" target="_blank">Reviews</a>
         </p>
