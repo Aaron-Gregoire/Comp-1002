@@ -17,3 +17,51 @@ border-bottom:10px solid #ffcc00;}
 font-size:3.5rem;
 color:#ffcc00;
 text-shadow:4px 4px 0 #000;}
+
+/*navigation*/
+nav ul{list-style:none;
+padding:0;
+background:#000;
+margin:0;}
+
+nav li{display:inline-block;
+margin:0 1.2rem;}
+
+nav a{color:#ffcc00;
+text-decoration:none;
+font-weight:bold;
+font-size:1.2rem;}
+
+nav a:hover{text-decoration:underline;}
+
+/*main contnet*/
+main{max-width:1000px;
+margin:2rem auto;
+background:rgba(0,0,0,0.92);
+padding:2rem;
+border:8px solid #ffcc00;}
+
+h1,h2{font-family:'Comic Neue',cursive;
+color:#ffcc00;
+text-align:center;}
+
+/*comic cover grid*/
+.cover-grid{display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:2rem;
+margin:2rem 0;}
+
+.cover-grid figure{flex:1 1 280px;
+max-width:340px;
+text-align:center;}
+
+.cover-grid img{width:100%;
+height:auto;
+border:8px solid #ffcc00;
+box-shadow:0 0 25px rgba(255,204,0,0.7);}
+
+figcaption{font-size:0.9rem;
+margin-top:0.8rem;
+font-style:italic;}
+
