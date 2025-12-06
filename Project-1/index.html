@@ -7,6 +7,7 @@
 </head>
 <body>
     <header>
+        <!-- marvel logo and links to other parts of the website-->
         <div class="logo">MARVEL COMICS 1970s</div>
         <nav>
             <ul>
@@ -18,21 +19,55 @@
             </ul>
         </nav>
     </header>
-</body>
 
-    <main>
+
+    <main><!--typical little marvel tagline to entice people to buy because they are so cheap along with 3 iconic issues with citations-->
         <section class="hero">
             <h1>Only 15¢ - 20¢ an Issue!</h1>
             <p class="tagline">The most exciting comics on the planet - and still cheaper than a candy bar!</p>
+
+            <div class="cover-grid">
+                <figure>
+                    <img src="images/ASM-121.jpg" alt="Amazing Spider-Man #121">
+                    <figcaption>
+                        <em>Amazing Spider-Man #121</em>(Jun 1973)<br>
+                        "The Night Gwen Stacy Died" - John Romita<br>
+                        © Marvel - fair use (educational)
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Giant-size-X-men-1.jpg" alt="Giant-Size X-Men #1">
+                    <figcaption>
+                        <em>Giant-Size X-Men #1</em> (May 1974)<br>
+                        All-new X-Men debut - Gil Kane & Dave Cockrum<br>
+                        © Marvel - fair use (educational)
+                    </figcaption>
+                </figure>
+                <figure>
+                <img src="images/Hulk-181.jpg" alt="Incredible Hulk #181">
+                <figcaption>
+                    <em>Incredible Hulk #181</em> (Nov 1974)<br>
+                    First Full Wolverine - Herb Trimpe<br>
+                    © Marvel - fair use (educational)
+                </figcaption>
+            </figure>
+            </div>
+            <!--js toggle button to show more text when clicked-->
+            <button onclick="toggleMore()">Why These Issues Changed Comics Forever</button>
+            <div id="extra" style="display:none; margin:2rem 0; padding:1.5rem; background:rgba(255,204,0,0.2); border:2px solid #ffcc00;">
+                <p>These three issues are iconic:  Gwen Stacy's death shocked the world, Wolverine debuted, and the all-new X-Men saved the franchise</p>
+            </div>
         </section>
     </main>
+<!--image credits-->
+    <footer>
+        <p>© 1975 Marvel Comics Group A Division of Cadence Industries</p>
+        <div class="image-credits">
+            <small>All covers © Marvel Comics (1973-1975). Used under fair use for non-commercial educational purposes.</small>
+        </div>
+    </footer>
+<!-- link to the js file-->
 
-
-
-
-
-
-
-
-
+    <script src="js/script.js"></script>
+</body>
 </html>
