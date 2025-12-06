@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--one again bringing over the global navigation from index-->
+    <meta charset="UTF-8">
+    <title>Feedback - 1970s Marvel Comics</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MARVEL COMICS 1970s</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Promotion</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="corporate.html">Corporate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Tell Us Your Favorite 1970s Marvel Moment!</h1>
+
+            <!-- customer feedback from with js-->
+             <form id="feedbackForm" onsubmit="handleSubmit(event)">
+                <label>Your Name:<br><input type="text" id="name" required></label><br><br>
+                <label>Rating (1-5 stars):<br><input type="number" id="rating" min="1" max="5" required></label><br><br>
+                <label>Favorite Issue:<br><input type="text" placeholder="e.g., Hulk #181" id="issue"></label><br><br>
+                <label>Comments:<br><textarea id="comment" rows="5" required></textarea></label><br><br>
+                <button type="submit">Send to Marvel!</button>
+             </form>
+
+             <!--message shown by js-->
+             <div id="thankyou" style="display:none; color:#ffcc00; font-size:2rem; margin-top:2rem; text-align:center;">
+                Thank you!!!
+             </div>
+        </section>
+    </main>
+<!--same footer as the other 2-->
+    <footer>
+        <p>© 1975 Marvel Comics Group</p>
+        <div class="image-credits">
+            <small> All covers © Marvel Comics (1973-1975). Used under fair use for non-commercial educational purposes.</small>
+        </div>
+    </footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
