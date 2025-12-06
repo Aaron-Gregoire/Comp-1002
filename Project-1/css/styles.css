@@ -65,3 +65,28 @@ figcaption{font-size:0.9rem;
 margin-top:0.8rem;
 font-style:italic;}
 
+/*buttons*/
+button{background:#ffcc00;
+color:#c00;
+border:none;
+padding:14px 28px;
+font-weight:bold;
+font-size:1.1rem;
+cursor:pointer;
+border-radius:4px;}
+
+button:hover{background:#fff;}
+
+/*form*/
+form label{color:#ffcc00;
+display:block;
+margin:10px 0 5px;}
+
+input,textarea{width:100%;
+padding:10px;
+margin-top:5px;
+border:2px solid #ffcc00;
+background:#111;
+color:#ffcc00;
+box-sizing:border-box;}
+
